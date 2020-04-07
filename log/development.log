@@ -144,3 +144,12 @@ Redirected to http://142.93.113.210:42417/students/3
 Completed 302 Found in 30ms (ActiveRecord: 6.4ms)
 
 
+Started GET "/students/3" for 73.244.211.24 at 2020-04-07 22:25:02 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 293ms (Views: 279.4ms | ActiveRecord: 0.0ms)
+
+
