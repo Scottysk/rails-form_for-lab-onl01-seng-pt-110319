@@ -10,6 +10,10 @@ class StudentsController < ApplicationController
     @student = Student.new
   end
   
+  def show
+    @student = 
+  end
+  
   
   def student_params(*args)
     params.require(:student).permit(*args)
