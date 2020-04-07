@@ -6,6 +6,10 @@ class SchoolClassesController < ApplicationController
     redirect_to school_class_path(@class)
   end
   
+  def new
+    @class = SchoolClass.new
+  end
+  
   
   
 
